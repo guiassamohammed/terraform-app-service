@@ -50,7 +50,7 @@ resource "azurerm_sql_server" "sqlserver" {
   location = azurerm_resource_group.rg.location
   version = "12.0"
   administrator_login =  "Mohammed"
-  administrator_login_password =  "Bucharest2018*"  
+  administrator_login_password =  "put your password"  
 }
 
 resource "azurerm_sql_database" "db" {
